@@ -48,3 +48,49 @@ code {
   color: var(--orange);
   text-decoration: none;
 }
+
+.landing-top {
+  height: 85vh;
+  min-height: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.landing-block {
+  max-width: 600px;
+}
+
+.email-link, .download-link, .landing-block p {
+  font-weight: 500;
+}
+
+.email-link {
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--dark);
+  color: var(--dark);
+  text-decoration: none;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  background-color: var(--orange);
+  color: #fff;
+  border: none;
+}
+
+.download-link {
+  color: var(--dark);
+}
+
+.download-link:hover {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-top {
+    height: 100vh;
+  }
+}

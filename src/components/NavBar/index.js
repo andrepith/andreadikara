@@ -2,11 +2,7 @@ const NavBar = () => {
   return (
     <div className="fixed-top navigation" id="navigation">
       <nav className="navbar navbar-expand-lg primary-nav container">
-        <a
-          aria-aria-current="page"
-          className="nav-item nav-link pl-0 mr-4"
-          href="/"
-        >
+        <a aria-current="page" className="nav-item nav-link pl-0 mr-4" href="/">
           Andre Adikara
         </a>
         <div class="collapse navbar-collapse" id="navbar">
