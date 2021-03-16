@@ -21,17 +21,17 @@ const NavBar = () => {
           <button className="navbar-toggler" type="button" onClick={handleOpen}>
             <List size={24} />
           </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <div class="navbar-nav align-items-center ml-auto">
+          <div className="collapse navbar-collapse" id="navbar">
+            <div className="navbar-nav align-items-center ml-auto">
               <a
-                class="nav-item nav-link mr-4"
+                className="nav-item nav-link mr-4"
                 href="https://github.com/andrepith"
                 target="__blank"
               >
                 github
               </a>
               <a
-                class="nav-item nav-link mr-4"
+                className="nav-item nav-link mr-4"
                 href="https://www.linkedin.com/in/andreadikara/"
                 target="__blank"
               >
@@ -39,7 +39,7 @@ const NavBar = () => {
               </a>
               <a
                 href="mailto:andrepith@yahoo.co.uk"
-                class="btn btn-layered offset"
+                className="btn btn-layered offset"
                 role="button"
                 aria-pressed="true"
               >

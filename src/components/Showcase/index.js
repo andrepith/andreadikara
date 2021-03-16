@@ -17,7 +17,7 @@ const Showcase = () => {
                 <div className="image-overlay">
                   <div className="image-overlay-text">
                     <p className="project-company mb-0">{item.name}</p>
-                    <p class="project-title">{item.title}</p>
+                    <p className="project-title">{item.title}</p>
                   </div>
                 </div>
               </a>
