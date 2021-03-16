@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import LandingTop from "../components/LandingTop";
 import Showcase from "../components/Showcase";
+import Skillset from "../components/Skillset";
 
 const Container = () => {
   return (
@@ -9,6 +10,7 @@ const Container = () => {
       <main className="wrapper">
         <LandingTop />
         <Showcase />
+        <Skillset />
       </main>
     </>
   );
