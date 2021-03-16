@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import LandingTop from "../components/LandingTop";
+import Showcase from "../components/Showcase";
 
 const Container = () => {
   return (
@@ -7,6 +8,7 @@ const Container = () => {
       <NavBar />
       <main className="wrapper">
         <LandingTop />
+        <Showcase />
       </main>
     </>
   );
