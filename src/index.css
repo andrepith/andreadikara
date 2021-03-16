@@ -24,6 +24,7 @@ code {
 .nav-link {
   color: var(--dark);
   font-weight: 700;
+  font-size: 1.25rem;
 }
 
 .btn-layered {
@@ -133,6 +134,7 @@ code {
   -webkit-transition: .4s ease;
   transition: .4s ease;
   background-color: var(--orange);
+  border-radius: 8px;
   z-index: 100;
 }
 
@@ -160,8 +162,51 @@ code {
   font-weight: 900;
 }
 
+.nav-overlay {
+  height: 100%;
+  display: none;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: .95;
+  background-color: var(--orange);
+  overflow-x: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  z-index: 999999!important;
+}
+
+.nav-overlay .nav-close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 24pt;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.nav-overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: var(--white);
+  display: block;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 768px) {
   .landing-top {
-    height: 100vh;
+    height: 85vh;
   }
 }
