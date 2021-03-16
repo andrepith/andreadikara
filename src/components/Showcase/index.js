@@ -2,9 +2,9 @@ import { data } from "./data";
 
 const Showcase = () => {
   return (
-    <div className="d-flex justify-content-start showcase" id="showcase">
+    <div className="justify-content-start showcase" id="showcase">
       <div className="container">
-        <h2 className="section-title">Showcase.</h2>
+        <h2 className="section-title text-center">Showcase.</h2>
         <div className="row">
           {data.map((item, key) => (
             <div key={key} className="col-lg-6 col-sm-12 mt-3">

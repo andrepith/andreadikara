@@ -12,6 +12,20 @@ code {
     monospace;
 }
 
+a:hover {
+  color: var(--orange);
+}
+
+.wrapper {
+  margin-top: 62px;
+}
+
+.section-title {
+  color: var(--dark);
+  text-decoration: overline;
+  text-decoration-color: var(--orange);
+}
+
 .navigation {
   border-bottom: 1px solid #000;
   border-bottom-width: 1px;
@@ -90,7 +104,7 @@ code {
 }
 
 .showcase {
-  margin-bottom: 100px;
+  margin-bottom: 96px;
 }
 
 .showcase-card {
@@ -205,8 +219,47 @@ code {
   font-weight: 700;
 }
 
+.skillset {
+  margin-bottom: 100px;
+}
+
+.logo-container {
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo-wrapper {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.logo:hover {
+  filter: none;
+}
+
 @media only screen and (max-width: 768px) {
   .landing-top {
     height: 85vh;
+  }
+
+  .logo-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .logo {
+    filter: none;
   }
 }

@@ -7,10 +7,10 @@ const LandingTop = () => {
         <div className="landing-block">
           <h1 className="landing-title">
             Hey, I’m Andre - A Software <br />
-            Engineer from Jakarta, Indonesia.
+            Engineer from Indonesia.
           </h1>
           <p className="mt-4">
-            Front-End Developer based in Indonesia with passion to making
+            Software Engineer based in Jakarta, Indonesia with passion to making
             complexed things simple for users. I love creating elegant and smart
             user-centered application which solve complex problems. I am also
             very passionate about simplicity and the psychology behind the
